@@ -1,0 +1,37 @@
+.button {
+  border: 2px solid var(--color-primary-blue);
+  border-radius: 32px;
+  background-color: var(--color-primary-blue);
+  color: var(--color-primaary-white);
+
+  display: flex;
+  padding: 14px 30px;
+  margin-bottom: 14px;
+  align-items: flex-start;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.171666;
+}
+
+.button:hover {
+  border: 2px solid var(--color-primary-blue);
+  color: var(--color-primary-darkblue);
+  background-color: transparent;
+}
+
+.button-description {
+  margin-bottom: 0;
+  color: var(--color-secondary-darkgrey);
+  font-style: 12px;
+  line-height: 1.5;
+}
+
+.order .button:hover {
+  color: var(--color-primaary-white);
+}
+
+.form-button {
+  display: block;
+  margin: 0 auto 8px;
+}
