@@ -102,6 +102,15 @@ ul {
   list-style-type: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -100000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -457,15 +466,24 @@ p .accent {
   gap: 32px;
 }
 
-.order {
+.iframe {
+  border: none;
+}
+
+.order-container {
+  padding: 48px 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 424px;
   background-color: var(--color-primary-darkblue);
   border-radius: 32px;
-  padding: 48px 56px;
   text-align: center;
+}
+
+.order {
+  width: 310px;
+  margin: auto;
 }
 
 .order-title {
@@ -485,6 +503,43 @@ p .accent {
 
   font-size: 12px;
   line-height: 1.5;
+}
+
+/* Form */
+
+.form-field {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  display: block;
+}
+
+.form-input {
+  padding: 18px 34px;
+  width: 100%;
+  border: 2px solid var(--color-secondary-grey);
+  border-radius: 32px;
+  background-color: transparent;
+  font-size: 13px;
+  line-height: 1.153846;
+  color: var(--color-primaary-white);
+}
+
+.form-input:focus {
+  background-color: var(--color-secondary-grey);
+  outline: none;
+}
+
+.form-input::placeholder {
+  font-size: 13px;
+  line-height: 1.153846;
+  color: var(--color-primaary-white);
+}
+
+.form-button {
+  display: block;
+  margin: 0 auto 8px;
 }
 
 /* Footer */
