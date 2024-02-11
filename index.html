@@ -130,8 +130,8 @@
       <section class="advantages" id="advantages-section">
         <div class="container">
           <div class="advantages-container">
-            <h2 class="section-title">
-              Чому люди <span class="accent">обирають нас</span>
+            <h2 class="section-title advnatages-title">
+              Чому люди<br><span class="accent">обирають нас</span>
             </h2>
             <div>
               <ul class="advantages-list">
@@ -176,6 +176,8 @@
           </div>
         </div>
       </section>
+
+
       <section class="procedures" id="procedures-section">
         <div class="container">
           <div class="procedure-container">
@@ -185,17 +187,20 @@
             <ul class="procedure-list">
               <li>
                 <article class="procedure-card">
+                  <img class="procedure-image" src="./images/procedure-1.jpg" alt="Фото процедури з маскою для обличчя">
                   <h3 class="procedure-title">Маски для обличчя</h3>
                 </article>
               </li>
 
               <li>
                 <article class="procedure-card">
+                  <img class="procedure-image-2" src="./images/procedure-2.jpg" alt="">
                   <h3 class="procedure-title">Ін'єкції для обличчя</h3>
                 </article>
               </li>
               <li>
                 <article class="procedure-card">
+                  <img class="procedure-image-3" src="./images/procedure-3.jpg" alt="">
                   <h3 class="procedure-title">Очищення обличчя</h3>
                 </article>
               </li>
@@ -224,6 +229,31 @@
                   Запишіться <span class="accent">безкоштовно</span> та
                   отримайте подарунок
                 </h3>
+
+                        <div class="form-field input">
+                          <label class="input__label visually-hidden" for="user-name">
+                            Імʼя
+                          </label>
+                          <input class="input__control" type="text" name="user-name" id="user-name" placeholder="Ваше ім'я та прізвище"
+                            required />
+                        </div>
+                        
+                        <div class="form-field input">
+                          <label class="input__label visually-hidden" for="user-tel">
+                            Телефон
+                          </label>
+                          <input class="input__control" type="tel" name="user-tel" id="user-tel" placeholder="Ваш номер телефону"
+                            pattern="^\+[0-9]{12}" required />
+                        </div>
+                        
+                        <div class="form-field input">
+                          <label class="input__label visually-hidden" for="user-email">
+                            Електронна пошта
+                          </label>
+                          <input class="input__control" type="email" name="user-email" id="user-email" placeholder="Ваша електронна пошта"
+                            required />
+                        </div>
+
                 <button class="button" type="button">
                   Записатись безкоштовно
                 </button>
