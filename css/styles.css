@@ -1,27 +1,29 @@
 @font-face {
   font-display: swap;
-  font-family: 'Play';
+  font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/play-v19-cyrillic_latin-regular.eot');
-  src: url('../fonts/play-v19-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2'),
-    url('../fonts/play-v19-cyrillic_latin-regular.woff') format('woff'),
-    url('../fonts/play-v19-cyrillic_latin-regular.ttf') format('truetype'),
-    url('../fonts/play-v19-cyrillic_latin-regular.svg#Play') format('svg');
+  src: url("../fonts/play-v19-cyrillic_latin-regular.eot");
+  src: url("../fonts/play-v19-cyrillic_latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/play-v19-cyrillic_latin-regular.woff2") format("woff2"),
+    url("../fonts/play-v19-cyrillic_latin-regular.woff") format("woff"),
+    url("../fonts/play-v19-cyrillic_latin-regular.ttf") format("truetype"),
+    url("../fonts/play-v19-cyrillic_latin-regular.svg#Play") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Play';
+  font-family: "Play";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/play-v19-cyrillic_latin-700.eot');
-  src: url('../fonts/play-v19-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2'),
-    url('../fonts/play-v19-cyrillic_latin-700.woff') format('woff'),
-    url('../fonts/play-v19-cyrillic_latin-700.ttf') format('truetype'),
-    url('../fonts/play-v19-cyrillic_latin-700.svg#Play') format('svg');
+  src: url("../fonts/play-v19-cyrillic_latin-700.eot");
+  src: url("../fonts/play-v19-cyrillic_latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/play-v19-cyrillic_latin-700.woff2") format("woff2"),
+    url("../fonts/play-v19-cyrillic_latin-700.woff") format("woff"),
+    url("../fonts/play-v19-cyrillic_latin-700.ttf") format("truetype"),
+    url("../fonts/play-v19-cyrillic_latin-700.svg#Play") format("svg");
 }
 
 @font-face {
@@ -343,9 +345,9 @@ p .accent {
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  
-    box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
-    background: rgb(255, 255, 255);
+
+  box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+  background: rgb(255, 255, 255);
 }
 
 .features {
@@ -372,7 +374,7 @@ p .accent {
 .procedure-title {
   position: absolute;
   width: 152px;
-height: 52px;
+  height: 52px;
   color: var(--color-primaary-white);
 
   text-align: center;
@@ -396,41 +398,45 @@ height: 52px;
   align-content: flex-end;
   padding: 372px 77px 32px 115px;
   overflow: hidden;
-  background-image: linear-gradient(180.00deg, rgba(1, 28, 68, 0) 48.529%,rgba(1, 28, 68, 0.73) 84.641%,rgb(1, 28, 68) 101.43%);
-  
+  background-image: linear-gradient(
+    180deg,
+    rgba(1, 28, 68, 0) 48.529%,
+    rgba(1, 28, 68, 0.73) 84.641%,
+    rgb(1, 28, 68) 101.43%
+  );
 }
 
 .procedure-image {
   position: absolute;
-width: 516px;
-height: 716px;
-left: -35.47%;
-right: -14.53%;
-top: -42.54%;
-bottom: -14.47%;
-z-index: -1;
+  width: 516px;
+  height: 716px;
+  left: -35.47%;
+  right: -14.53%;
+  top: -42.54%;
+  bottom: -14.47%;
+  z-index: -1;
 }
 
 .procedure-image-2 {
   position: absolute;
-    width: 767px;
-    height: 511px;
-    left: -212px;
-    right: -211px;
-    top: -28px;
-    bottom: -27px;
-    z-index: -1;
+  width: 767px;
+  height: 511px;
+  left: -212px;
+  right: -211px;
+  top: -28px;
+  bottom: -27px;
+  z-index: -1;
 }
 
 .procedure-image-3 {
   position: absolute;
-    width: 463px;
-    height: 694px;
-    left: -52px;
-    right: -67px;
-    top: -2px;
-    bottom: -236px;
-    z-index: -1;
+  width: 463px;
+  height: 694px;
+  left: -52px;
+  right: -67px;
+  top: -2px;
+  bottom: -236px;
+  z-index: -1;
 }
 
 /* Contacts */
@@ -589,7 +595,7 @@ z-index: -1;
   border-radius: 48px;
   text-align: center;
   align-items: center;
-  overflow-y:auto;
+  overflow-y: auto;
 }
 
 .modal-btn-close {
