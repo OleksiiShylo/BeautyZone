@@ -1,0 +1,15 @@
+.section {
+  &__title {
+    margin-bottom: 0;
+
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.157031;
+
+    &--centered {
+      text-align: center;
+      width: 432px;
+    }
+  }
+}

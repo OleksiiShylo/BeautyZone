@@ -280,78 +280,22 @@ ul {
   padding: 48px 0;
 }
 
-.procedure-container {
+.procedure__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
 }
 
-.procedure-title {
-  position: absolute;
-  width: 152px;
-  height: 52px;
-  color: var(--color-primaary-white);
-  text-align: center;
-  font-size: 22px;
-  line-height: 1.181818; /* 118.182% */
-}
-
-.procedures-slider {
+.procedures__slider {
   display: flex;
   align-items: center;
 }
 
-.procedure-list {
+.procedures__list {
   display: flex;
   gap: 16px;
   justify-content: center;
-}
-
-.procedure-card {
-  position: relative;
-  border-radius: 4px 120px;
-  width: 344px;
-  height: 456px;
-  flex-shrink: 0;
-  display: flex;
-  align-content: flex-end;
-  padding: 372px 77px 32px 115px;
-  overflow: hidden;
-  background-image: linear-gradient(180deg, rgba(1, 28, 68, 0) 48.529%, rgba(1, 28, 68, 0.73) 84.641%, rgb(1, 28, 68) 101.43%);
-}
-
-.procedure-image {
-  position: absolute;
-  width: 516px;
-  height: 716px;
-  left: -35.47%;
-  right: -14.53%;
-  top: -42.54%;
-  bottom: -14.47%;
-  z-index: -1;
-}
-
-.procedure-image-2 {
-  position: absolute;
-  width: 767px;
-  height: 511px;
-  left: -212px;
-  right: -211px;
-  top: -28px;
-  bottom: -27px;
-  z-index: -1;
-}
-
-.procedure-image-3 {
-  position: absolute;
-  width: 463px;
-  height: 694px;
-  left: -52px;
-  right: -67px;
-  top: -2px;
-  bottom: -236px;
-  z-index: -1;
 }
 
 .carousel-button {
@@ -376,18 +320,66 @@ ul {
   transform: rotate(180deg);
 }
 
+.procedure-card {
+  position: relative;
+  border-radius: 4px 120px;
+  width: 344px;
+  height: 456px;
+  flex-shrink: 0;
+  display: flex;
+  align-content: flex-end;
+  padding: 372px 77px 32px 115px;
+  overflow: hidden;
+  background-image: linear-gradient(180deg, rgba(1, 28, 68, 0) 48.529%, rgba(1, 28, 68, 0.73) 84.641%, rgb(1, 28, 68) 101.43%);
+}
+.procedure-card__image {
+  position: absolute;
+  z-index: -1;
+}
+.procedure-card__image--1 {
+  width: 516px;
+  height: 716px;
+  left: -35.47%;
+  right: -14.53%;
+  top: -42.54%;
+  bottom: -14.47%;
+}
+.procedure-card__image--2 {
+  width: 767px;
+  height: 511px;
+  left: -212px;
+  right: -211px;
+  top: -28px;
+  bottom: -27px;
+}
+.procedure-card__image--3 {
+  width: 463px;
+  height: 694px;
+  left: -52px;
+  right: -67px;
+  top: -2px;
+  bottom: -236px;
+}
+.procedure-card__title {
+  position: absolute;
+  width: 152px;
+  height: 52px;
+  color: var(--color-primaary-white);
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.181818; /* 118.182% */
+}
+
 .contacts {
   padding: 48px 0 96px 0;
 }
-
-.contacts-container {
+.contacts__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
 }
-
-.contacts-content {
+.contacts__content {
   display: flex;
   gap: 32px;
 }
@@ -585,14 +577,14 @@ ul {
   justify-content: center;
 }
 
-.section-title {
+.section__title {
   margin-bottom: 0;
   font-family: Play;
   font-size: 64px;
   font-weight: 700;
   line-height: 1.157031;
 }
-.section-title--centered {
+.section__title--centered {
   text-align: center;
   width: 432px;
 }
