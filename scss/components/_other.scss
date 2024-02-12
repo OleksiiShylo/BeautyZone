@@ -13,9 +13,9 @@
   font-size: 64px;
   font-weight: 700;
   line-height: 1.157031;
-}
 
-h2 .accent,
-h3 .accent {
-  color: var(--color-primary-blue);
+  &--centered {
+    text-align: center;
+    width: 432px;
+  }
 }

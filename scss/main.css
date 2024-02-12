@@ -85,6 +85,14 @@ ul {
   overflow: hidden;
 }
 
+.text-color {
+  color: var(--color-primary-blue);
+}
+
+.text-weight {
+  font-weight: 700;
+}
+
 .button {
   border: 2px solid var(--color-primary-blue);
   border-radius: 32px;
@@ -121,14 +129,16 @@ ul {
   margin: 0 auto 8px;
 }
 
+.close-btn {
+  background-color: var(--color-primary-darkblue);
+}
+
 .header {
   display: flex;
   position: absolute;
   background: rgba(255, 255, 255, 0.2509803922);
 }
-
-.header-container {
-  /* width: 100%; */
+.header__container {
   display: flex;
   align-items: center;
   margin: 32px 102px 32px 99px;
@@ -137,46 +147,30 @@ ul {
   background: transparent;
   backdrop-filter: blur(5px);
 }
-
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
   gap: 240px;
 }
-
-.header-menu {
+.header__menu {
   display: flex;
   gap: 56px;
   flex-grow: 1;
   justify-content: center;
 }
-
-.address-list {
+.header__address {
   display: flex;
   gap: 32px;
   flex-grow: 1;
   justify-content: center;
 }
-
-.logo {
-  text-decoration: none;
-  font-family: Play;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 0.9545555; /* 95.455% */
-  text-transform: capitalize;
-  color: var(--color-primary-blue);
-}
-
-.header-link {
+.header__link {
   color: var(--color-primary-darkblue);
   text-decoration: none;
   font-size: 18px;
   line-height: 1.171666;
 }
-
-.header-link:hover {
+.header__link:hover {
   color: var(--color-primary-blue);
 }
 
@@ -186,12 +180,10 @@ ul {
   background-repeat: no-repeat;
   background-position-x: 350px;
 }
-
-.hero-container {
+.hero-section__container {
   margin: 123.12px 666.95px 126.81px 244px;
 }
-
-.hero-title {
+.hero-section__title {
   margin-bottom: 40px;
   color: var(--color-primary-blue);
   font-family: Play;
@@ -199,12 +191,7 @@ ul {
   font-weight: 700;
   line-height: 0.81429;
 }
-
-.company-name {
-  text-transform: capitalize;
-}
-
-.hero-title-p {
+.hero-section__title--text {
   margin-bottom: 16px;
   font-size: 18px;
   line-height: 1.171666;
@@ -213,23 +200,12 @@ ul {
 .about-us {
   padding: 0 0 88px 0;
 }
-
-.about-us-content > p {
-  font-size: 22px;
-  line-height: 1.727272;
-}
-
-p .accent {
-  font-weight: 700;
-}
-
-.about-us-container {
+.about-us__container {
   display: flex;
   margin: 0 100px;
   gap: 32px;
 }
-
-.about-us-content {
+.about-us__content {
   width: 710px;
   margin-top: 40px;
   margin-bottom: 199px;
@@ -237,15 +213,17 @@ p .accent {
   flex-direction: column;
   gap: 40px;
 }
-
-.about-us-images {
+.about-us__text {
+  font-size: 22px;
+  line-height: 1.727272;
+}
+.about-us__images {
   width: 500px;
   height: 696px;
   display: flex;
   position: relative;
 }
-
-.first-image {
+.about-us__images--first {
   position: absolute;
   top: 1px;
   left: 4px;
@@ -253,8 +231,7 @@ p .accent {
   width: 335px;
   height: 328px;
 }
-
-.second-image {
+.about-us__images--second {
   position: absolute;
   bottom: 0;
   left: 164px;
@@ -263,7 +240,10 @@ p .accent {
   height: 328px;
 }
 
-.advantages-container {
+.advantages {
+  padding: 88px 0 48px 0;
+}
+.advantages__container {
   max-width: 1060px;
   display: flex;
   flex-direction: column;
@@ -273,22 +253,11 @@ p .accent {
   margin: 0 auto;
   background-color: #a8bccd;
 }
-
-.advnatages-title {
-  text-align: center;
-  width: 432px;
-}
-
-.advantages-list {
+.advantages__list {
   display: flex;
   gap: 56px;
 }
-
-.advantages {
-  padding: 88px 0 48px 0;
-}
-
-.advantage-block {
+.advantages__card {
   display: flex;
   flex-direction: column;
   height: 181px;
@@ -300,8 +269,7 @@ p .accent {
   box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
   background: rgb(255, 255, 255);
 }
-
-.features {
+.advantages__features {
   color: var(--color-black);
   text-align: center;
   font-size: 18px;
@@ -327,6 +295,11 @@ p .accent {
   text-align: center;
   font-size: 22px;
   line-height: 1.181818; /* 118.182% */
+}
+
+.procedures-slider {
+  display: flex;
+  align-items: center;
 }
 
 .procedure-list {
@@ -601,6 +574,10 @@ p .accent {
   color: var(--color-primaary-white);
 }
 
+.modal .form-field {
+  margin-bottom: 24px;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -615,8 +592,7 @@ p .accent {
   font-weight: 700;
   line-height: 1.157031;
 }
-
-h2 .accent,
-h3 .accent {
-  color: var(--color-primary-blue);
+.section-title--centered {
+  text-align: center;
+  width: 432px;
 }

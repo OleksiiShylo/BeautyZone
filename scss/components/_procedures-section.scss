@@ -20,6 +20,11 @@
   line-height: 1.181818; /* 118.182% */
 }
 
+.procedures-slider {
+  display: flex;
+  align-items: center;
+}
+
 .procedure-list {
   display: flex;
   gap: 16px;

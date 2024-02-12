@@ -1,32 +1,28 @@
 .hero-section {
   padding: 0;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   background-repeat: no-repeat;
   background-position-x: 350px;
-}
 
-.hero-container {
-  margin: 123.12px 666.95px 126.81px 244px;
-}
+  &__container {
+    margin: 123.12px 666.95px 126.81px 244px;
+  }
 
-.hero-title {
-  margin-bottom: 40px;
+  &__title {
+    margin-bottom: 40px;
 
-  color: var(--color-primary-blue);
+    color: var(--color-primary-blue);
 
-  font-family: Play;
-  font-size: 140px;
-  font-weight: 700;
-  line-height: 0.81429;
-}
+    font-family: Play;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.81429;
 
-.company-name {
-  text-transform: capitalize;
-}
+    &--text {
+      margin-bottom: 16px;
 
-.hero-title-p {
-  margin-bottom: 16px;
-
-  font-size: 18px;
-  line-height: 1.171666;
+      font-size: 18px;
+      line-height: 1.171666;
+    }
+  }
 }
