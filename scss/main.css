@@ -1,54 +1,34 @@
 @font-face {
   font-display: swap;
-  font-family: 'Play';
+  font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/play-v19-cyrillic_latin-regular.eot');
-  src: url('../fonts/play-v19-cyrillic_latin-regular.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2'),
-    url('../fonts/play-v19-cyrillic_latin-regular.woff') format('woff'),
-    url('../fonts/play-v19-cyrillic_latin-regular.ttf') format('truetype'),
-    url('../fonts/play-v19-cyrillic_latin-regular.svg#Play') format('svg');
+  src: url("../fonts/play-v19-cyrillic_latin-regular.eot");
+  src: url("../fonts/play-v19-cyrillic_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/play-v19-cyrillic_latin-regular.woff2") format("woff2"), url("../fonts/play-v19-cyrillic_latin-regular.woff") format("woff"), url("../fonts/play-v19-cyrillic_latin-regular.ttf") format("truetype"), url("../fonts/play-v19-cyrillic_latin-regular.svg#Play") format("svg");
 }
 @font-face {
   font-display: swap;
-  font-family: 'Play';
+  font-family: "Play";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/play-v19-cyrillic_latin-700.eot');
-  src: url('../fonts/play-v19-cyrillic_latin-700.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2'),
-    url('../fonts/play-v19-cyrillic_latin-700.woff') format('woff'),
-    url('../fonts/play-v19-cyrillic_latin-700.ttf') format('truetype'),
-    url('../fonts/play-v19-cyrillic_latin-700.svg#Play') format('svg');
+  src: url("../fonts/play-v19-cyrillic_latin-700.eot");
+  src: url("../fonts/play-v19-cyrillic_latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/play-v19-cyrillic_latin-700.woff2") format("woff2"), url("../fonts/play-v19-cyrillic_latin-700.woff") format("woff"), url("../fonts/play-v19-cyrillic_latin-700.ttf") format("truetype"), url("../fonts/play-v19-cyrillic_latin-700.svg#Play") format("svg");
 }
 @font-face {
   font-display: swap;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/roboto-v30-cyrillic_latin-regular.eot');
-  src: url('../fonts/roboto-v30-cyrillic_latin-regular.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'),
-    url('../fonts/roboto-v30-cyrillic_latin-regular.woff') format('woff'),
-    url('../fonts/roboto-v30-cyrillic_latin-regular.ttf') format('truetype'),
-    url('../fonts/roboto-v30-cyrillic_latin-regular.svg#Roboto') format('svg');
+  src: url("../fonts/roboto-v30-cyrillic_latin-regular.eot");
+  src: url("../fonts/roboto-v30-cyrillic_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic_latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic_latin-regular.woff") format("woff"), url("../fonts/roboto-v30-cyrillic_latin-regular.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic_latin-regular.svg#Roboto") format("svg");
 }
 @font-face {
   font-display: swap;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/roboto-v30-cyrillic_latin-700.eot');
-  src: url('../fonts/roboto-v30-cyrillic_latin-700.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'),
-    url('../fonts/roboto-v30-cyrillic_latin-700.woff') format('woff'),
-    url('../fonts/roboto-v30-cyrillic_latin-700.ttf') format('truetype'),
-    url('../fonts/roboto-v30-cyrillic_latin-700.svg#Roboto') format('svg');
+  src: url("../fonts/roboto-v30-cyrillic_latin-700.eot");
+  src: url("../fonts/roboto-v30-cyrillic_latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic_latin-700.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic_latin-700.woff") format("woff"), url("../fonts/roboto-v30-cyrillic_latin-700.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic_latin-700.svg#Roboto") format("svg");
 }
 :root {
   --color-primaary-white: #ffffff;
@@ -202,7 +182,7 @@ ul {
 
 .hero-section {
   padding: 0;
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url("../images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position-x: 350px;
 }
@@ -365,12 +345,7 @@ p .accent {
   align-content: flex-end;
   padding: 372px 77px 32px 115px;
   overflow: hidden;
-  background-image: linear-gradient(
-    180deg,
-    rgba(1, 28, 68, 0) 48.529%,
-    rgba(1, 28, 68, 0.73) 84.641%,
-    rgb(1, 28, 68) 101.43%
-  );
+  background-image: linear-gradient(180deg, rgba(1, 28, 68, 0) 48.529%, rgba(1, 28, 68, 0.73) 84.641%, rgb(1, 28, 68) 101.43%);
 }
 
 .procedure-image {
@@ -404,6 +379,28 @@ p .accent {
   top: -2px;
   bottom: -236px;
   z-index: -1;
+}
+
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  fill: var(--color-primary-dark);
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var();
+  cursor: pointer;
+}
+.carousel-button:hover {
+  background-color: var(--color-primary-dark);
+  fill: var(--color-primary-light);
+}
+.carousel-button.prev {
+  transform: rotate(180deg);
 }
 
 .contacts {
@@ -489,13 +486,13 @@ p .accent {
 
 .footer::after {
   position: absolute;
-  background-image: url('../images/foooter-deco.png');
+  background-image: url("../images/foooter-deco.png");
   background-repeat: no-repeat;
   width: 278px;
   height: 213px;
   right: -31px;
   bottom: -61px;
-  content: '';
+  content: "";
 }
 
 .footer-container {
@@ -622,4 +619,4 @@ p .accent {
 h2 .accent,
 h3 .accent {
   color: var(--color-primary-blue);
-} /*# sourceMappingURL=main.css.map */
+}
