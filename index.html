@@ -190,7 +190,7 @@
             </h2>
             <div class="procedures__slider">
               <button
-                class="procedures-slider-button carousel-button prev"
+                class="procedures__button carousel-button prev"
                 type="button"
               >
                 <svg width="16" height="16">
@@ -261,30 +261,33 @@
             </h2>
             <div class="contacts__content">
               <iframe
-                class="iframe"
+                class="contacts__map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325719461126!2d30.5181753!3d50.4423566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2sTarasa%20Shevchenko%20Blvd%2C%205%2C%20Kyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1702624095668!5m2!1sen!2sua"
                 width="605"
                 height="481"
-                style="border-radius: 32px"
+                style="border-radius: 32px; border: none"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
 
-              <div class="order-container">
-                <div class="order">
-                  <h3 class="order-title">
+              <div class="contacts__order">
+                <div class="order-form">
+                  <h3 class="order-form__title">
                     Запишіться <span class="text-color">безкоштовно</span> та
                     отримайте подарунок
                   </h3>
 
                   <form name="contact-form" autocomplete="off">
-                    <div class="form-field">
-                      <label class="form-label visually-hidden" for="user-name">
+                    <div class="order-form__field input">
+                      <label
+                        class="input__label visually-hidden"
+                        for="user-name"
+                      >
                         Імʼя
                       </label>
                       <input
-                        class="form-input"
+                        class="input__control"
                         type="text"
                         name="user-name"
                         id="user-name"
@@ -293,12 +296,15 @@
                       />
                     </div>
 
-                    <div class="form-field">
-                      <label class="form-label visually-hidden" for="user-tel">
+                    <div class="order-form__field input">
+                      <label
+                        class="input__label visually-hidden"
+                        for="user-tel"
+                      >
                         Телефон
                       </label>
                       <input
-                        class="form-input"
+                        class="input__control"
                         type="tel"
                         name="user-tel"
                         id="user-tel"
@@ -308,15 +314,15 @@
                       />
                     </div>
 
-                    <div class="form-field">
+                    <div class="order-form__field input">
                       <label
-                        class="form-label visually-hidden"
+                        class="input__label visually-hidden"
                         for="user-email"
                       >
                         Електронна пошта
                       </label>
                       <input
-                        class="form-input"
+                        class="input__control"
                         type="email"
                         name="user-email"
                         id="user-email"
@@ -325,12 +331,12 @@
                       />
                     </div>
 
-                    <button class="button form-button" type="submit">
+                    <button class="button order-form__button" type="submit">
                       Записатись безкоштовно
                     </button>
-                    <p class="button-description">
+                    <p class="terms-policy">
                       Натискаючи на кнопку я погоджуюсь
-                      <a class="policy" href="#" target="_blank"
+                      <a class="terms-policy__link" href="#" target="_blank"
                         >з політикою конфіденційності</a
                       >
                     </p>
@@ -456,19 +462,19 @@
           <img class="close-btn" src="./images/close-btn.svg" alt="" />
         </button>
         <h2 class="modal__title">Замовити дзвінок</h2>
-        <div class="order">
-          <h3 class="order-title">
+        <div class="order-form">
+          <h3 class="order-form__title">
             Запишіться <span class="text-color">безкоштовно</span> та отримайте
             подарунок
           </h3>
 
           <form name="contact-form" autocomplete="off">
-            <div class="form-field">
-              <label class="form-label visually-hidden" for="user-name">
+            <div class="order-form__field input">
+              <label class="input__label visually-hidden" for="user-name">
                 Імʼя
               </label>
               <input
-                class="form-input"
+                class="input__control"
                 type="text"
                 name="user-name"
                 id="user-name"
@@ -477,12 +483,12 @@
               />
             </div>
 
-            <div class="form-field">
-              <label class="form-label visually-hidden" for="user-tel">
+            <div class="order-form__field input">
+              <label class="input__label visually-hidden" for="user-tel">
                 Телефон
               </label>
               <input
-                class="form-input"
+                class="input__control"
                 type="tel"
                 name="user-tel"
                 id="user-tel"
@@ -492,12 +498,12 @@
               />
             </div>
 
-            <div class="form-field">
-              <label class="form-label visually-hidden" for="user-email">
+            <div class="order-form__field input">
+              <label class="input__label visually-hidden" for="user-email">
                 Електронна пошта
               </label>
               <input
-                class="form-input"
+                class="input__control"
                 type="email"
                 name="user-email"
                 id="user-email"
@@ -506,18 +512,18 @@
               />
             </div>
 
-            <button class="button form-button" type="submit">
+            <button class="button order-form__button" type="submit">
               Записатись безкоштовно
             </button>
-            <p class="button-description">
+            <p class="terms-policy">
               Натискаючи на кнопку я погоджуюсь
-              <a class="policy" href="#" target="_blank"
+              <a class="terms-policy__link" href="#" target="_blank"
                 >з політикою конфіденційності</a
               >
             </p>
           </form>
         </div>
-      </div>
+        </div>
     </div>
 
     <script src="./js/modal.js"></script>

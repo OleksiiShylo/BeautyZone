@@ -4,12 +4,26 @@
   &__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 48px;
   }
 
   &__content {
     display: flex;
     gap: 32px;
+  }
+
+  &__map {
+    flex-shrink: 0;
+    border: none;
+  }
+
+  &__order {
+    padding: 48px 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 424px;
+    background-color: var(--color-primary-darkblue);
+    border-radius: 32px;
+    text-align: center;
   }
 }

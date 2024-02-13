@@ -1,0 +1,15 @@
+.order-form {
+  width: 310px;
+  margin: auto;
+
+  &__title {
+    color: var(--color-primary-white);
+
+    font-size: 22px;
+    line-height: 1.171818;
+  }
+
+  &__field {
+    margin-bottom: 16px;
+  }
+}
