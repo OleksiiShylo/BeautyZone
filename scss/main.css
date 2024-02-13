@@ -31,7 +31,7 @@
   src: url("../fonts/roboto-v30-cyrillic_latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic_latin-700.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic_latin-700.woff") format("woff"), url("../fonts/roboto-v30-cyrillic_latin-700.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic_latin-700.svg#Roboto") format("svg");
 }
 :root {
-  --color-primaary-white: #ffffff;
+  --color-primary-white: #ffffff;
   --color-primary-blue: #2b7fff;
   --color-primary-darkblue: #011c44;
   --color-secondary-darkgrey: #4a4a4a;
@@ -280,7 +280,7 @@ ul {
   padding: 48px 0;
 }
 
-.procedure__container {
+.procedures__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -401,7 +401,7 @@ ul {
 }
 
 .order-title {
-  color: var(--color-primaary-white);
+  color: var(--color-primary-white);
   font-size: 22px;
   line-height: 1.171818;
 }
@@ -429,7 +429,7 @@ ul {
   background-color: transparent;
   font-size: 13px;
   line-height: 1.153846;
-  color: var(--color-primaary-white);
+  color: var(--color-primary-white);
 }
 
 .form-input:focus {
@@ -440,7 +440,7 @@ ul {
 .form-input::placeholder {
   font-size: 13px;
   line-height: 1.153846;
-  color: var(--color-primaary-white);
+  color: var(--color-primary-white);
 }
 
 .footer {
@@ -482,14 +482,14 @@ ul {
 .footer-social {
   display: flex;
   gap: 24px;
-  color: var(--color-primaary-white);
+  color: var(--color-primary-white);
 }
 
 .footer-link,
 .footer-address-link {
   display: flex;
   flex-direction: column;
-  color: var(--color-primaary-white);
+  color: var(--color-primary-white);
   font-size: 16px;
   line-height: 1.171875;
   text-decoration: none;
@@ -505,7 +505,7 @@ ul {
 
 .footer-info a {
   margin-bottom: 16px;
-  color: var(--color-primaary-white);
+  color: var(--color-primary-white);
   text-decoration: none;
 }
 
@@ -558,12 +558,12 @@ ul {
   padding: 8px;
 }
 
-.modal-title {
+.modal__title {
   font-family: Play;
   font-size: 64px;
   font-weight: 700;
   line-height: 1.15625;
-  color: var(--color-primaary-white);
+  color: var(--color-primary-white);
 }
 
 .modal .form-field {
