@@ -34,7 +34,7 @@
             </ul>
           </nav>
           <address>
-            <ul class="header__address">
+            <ul class="header__social">
               <li>
                 <a href="tel:+380960000007">
                   <img
@@ -351,48 +351,42 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-container">
-          <div class="footer-content">
-            <nav class="footer-nav">
-              <a href="#"
-                ><img
-                  src="./images/logo.svg"
-                  alt="Лого Beauty Zone"
-                  width="83px"
-              /></a>
-              <ul>
-                <li><a class="footer-link" href="#">Про нас</a></li>
-                <li><a class="footer-link" href="#">Чому ми</a></li>
-                <li><a class="footer-link" href="#">Наші процедури</a></li>
-                <li><a class="footer-link" href="#">Контакти</a></li>
-              </ul>
-            </nav>
-          </div>
+        <div class="footer__container">
+          <a href="#"
+            ><img src="./images/logo.svg" alt="Лого Beauty Zone" width="83px"
+          /></a>
+          <nav class="footer__nav">
+            <ul>
+              <li><a class="footer__link" href="#">Про нас</a></li>
+              <li><a class="footer__link" href="#">Чому ми</a></li>
+              <li><a class="footer__link" href="#">Наші процедури</a></li>
+              <li><a class="footer__link" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+
           <div>
-            <address class="footer-address">
+            <address class="footer__address">
               <ul>
                 <li>
-                  <a class="footer-address-link" href="tel:+380960000007"
+                  <a class="footer__link" href="tel:+380960000007"
                     >+ 38 (096) 000 00 07</a
                   >
                 </li>
                 <li>
-                  <a
-                    class="footer-address-link"
-                    href="mailto:beautyzone@gmail.com"
+                  <a class="footer__link" href="mailto:beautyzone@gmail.com"
                     >beautyzone@gmail.com
                   </a>
                 </li>
                 <li>
                   <a
-                    class="footer-address-link"
+                    class="footer__link"
                     href="https://maps.app.goo.gl/MB524euqtiikMm81A"
                     target="_blank"
                     >Україна, м. Київ, вул. Шевченка 5</a
                   >
                 </li>
               </ul>
-              <ul class="footer-social">
+              <ul class="footer__social">
                 <li>
                   <a href="tel:+380960000007"
                     ><svg
@@ -444,8 +438,9 @@
               </ul>
             </address>
           </div>
-          <div class="footer-info">
-            <a class="policy" href="#" target="_blank"
+
+          <div class="footer__info">
+            <a class="footer__link" href="#" target="_blank"
               >Політика конфіденційності</a
             >
             <p class="copyright">&copy; 2022 Дані захищені</p>
@@ -456,20 +451,20 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
       <div class="modal">
-        <button class="modal-btn-close" type="button">
+        <button class="modal__btn-close" type="button">
           <img class="close-btn" src="./images/close-btn.svg" alt="" />
         </button>
         <h2 class="modal__title">Замовити дзвінок</h2>
-        <div class="order-form">
-          <h3 class="order-form__title">
+        <div class="modal-form">
+          <h3 class="modal-form__title">
             Запишіться <span class="text-color">безкоштовно</span> та отримайте
             подарунок
           </h3>
 
           <form name="contact-form" autocomplete="off">
-            <div class="order-form__field input">
+            <div class="modal__field input">
               <label class="input__label visually-hidden" for="user-name">
                 Імʼя
               </label>
@@ -483,7 +478,7 @@
               />
             </div>
 
-            <div class="order-form__field input">
+            <div class="modal__field input">
               <label class="input__label visually-hidden" for="user-tel">
                 Телефон
               </label>
@@ -498,7 +493,7 @@
               />
             </div>
 
-            <div class="order-form__field input">
+            <div class="modal__field input">
               <label class="input__label visually-hidden" for="user-email">
                 Електронна пошта
               </label>
@@ -512,7 +507,7 @@
               />
             </div>
 
-            <button class="button order-form__button" type="submit">
+            <button class="button modal-form__button" type="submit">
               Записатись безкоштовно
             </button>
             <p class="terms-policy">
@@ -523,7 +518,7 @@
             </p>
           </form>
         </div>
-        </div>
+      </div>
     </div>
 
     <script src="./js/modal.js"></script>

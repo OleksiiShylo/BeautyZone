@@ -11,12 +11,12 @@
   padding: 172px 358px;
   background-color: rgba(1, 31, 74, 0.4);
   transition: opacity 0.3s, visibility 0.3s;
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
 
 .modal {
@@ -30,9 +30,13 @@
   text-align: center;
   align-items: center;
   overflow-y: auto;
+
+  &__field {
+    margin-bottom: 24px;
+  }
 }
 
-.modal-btn-close {
+.modal__btn-close {
   position: absolute;
   top: 42px;
   right: 42px;
@@ -40,6 +44,10 @@
   align-items: center;
   justify-content: center;
   padding: 8px;
+  fill: transparent;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .modal__title {
@@ -48,8 +56,22 @@
   font-weight: 700;
   line-height: 1.15625;
   color: var(--color-primary-white);
+  margin-bottom: 40px;
 }
 
-.modal .form-field {
-  margin-bottom: 24px;
-}
+// .modal-form {
+//   width: 310px;
+//   margin: auto;
+
+//   &__title {
+//     color: var(--color-primary-white);
+//     margin-bottom: 32px;
+
+//     font-size: 22px;
+//     line-height: 1.171818;
+//   }
+
+//   &__field {
+//     margin-bottom: 24px;
+//   }
+// }
