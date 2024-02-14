@@ -1,24 +1,24 @@
+@import './base';
 @import './utils/fonts';
+@import './utils/texts';
+@import './utils/utils';
 @import './utils/variables';
 
-@import './base';
-@import './utils/utils';
-@import './utils/texts';
-
-@import './components/logo';
-@import './components/buttons';
-@import './layouts/header';
-@import './layouts/hero-section';
 @import './layouts/about-us-section';
 @import './layouts/advantages-section';
+@import './layouts/contacts-section';
+@import './layouts/container';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/modal';
+@import './layouts/order-form';
 @import './layouts/procedures-section';
+@import './layouts/section';
+
+@import './components/buttons';
 @import './components/carousel-button';
 @import './components/input';
+@import './components/logo';
 @import './components/procedure-card';
 @import './components/terms-policy';
-@import './layouts/contacts-section';
-@import './layouts/order-form';
-@import './layouts/footer';
-@import './layouts/modal';
-@import './layouts/container';
-@import './layouts/section';
